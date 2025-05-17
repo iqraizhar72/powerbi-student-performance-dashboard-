@@ -12,14 +12,6 @@ This project presents a fully interactive Power BI dashboard built on a dataset 
 
 ---
 
-## 🔍 Dataset Overview
-
-- **Source**: [Kaggle - Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
-- **Records**: 1000 students
-- **Attributes**: Gender, Race/ethnicity, Parental education, Lunch, Test preparation, and scores in Math, Reading, and Writing.
-
----
-
 ## ⚙️ Data Preparation
 
 ### 🧼 Data Cleaning
@@ -177,6 +169,7 @@ This dashboard provides a powerful view into the factors influencing student per
 
 /Data
 ├── students-dataset.csv # Cleaned dataset
+
 └── students-performance.pbix # Power BI dashboard
 
 /images
@@ -195,4 +188,8 @@ This dashboard provides a powerful view into the factors influencing student per
 
 ## 👤 Author
 
-**Iqra Izhar**  
+**IqraIzhar**
+- **LinkedIn:** [linkedin.com/in/iqra-izhar-08b8b8330](https://www.linkedin.com/in/iqra-izhar-08b8b8330)  
+- **GitHub:** [github.com/iqraizhar72](https://github.com/iqraizhar72)
+- **Email:** [iqraizhar72@gmail.com](mailto:iqraizhar72@gmail.com)
+
