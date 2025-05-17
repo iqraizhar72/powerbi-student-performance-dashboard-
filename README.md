@@ -161,7 +161,7 @@ This dashboard provides a powerful view into the factors influencing student per
 /Data
 ├── students-dataset.csv # Cleaned dataset
 
-└── students-performance.pbix # Power BI dashboard
+     └── students-performance.pbix # Power BI dashboard
 
 /images
 └── dashboard-preview.png # Screenshot of the dashboard
