@@ -36,7 +36,21 @@ This project presents a fully interactive Power BI dashboard built on a dataset 
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](assets/dashboard-preview.png)
+### Summary Page
+
+![summary page](images/summary.png)
+![summary buttons](images/summaryb.png)
+![summary slicer](images/summarys.png)
+
+### Detail Page
+
+![detail page](images/detail.png)
+![detail slicer](images/details.png)
+
+### Drill-Through
+
+![drillthrow page](images/drillthrow.png)
+![drillthrow summary](images/drillthrowp.png)
 
 ---
 
