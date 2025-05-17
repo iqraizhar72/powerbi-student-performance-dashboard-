@@ -34,31 +34,13 @@ This project presents a fully interactive Power BI dashboard built on a dataset 
 
 ---
 
-## 📸 Dashboard Preview
-
-### Summary Page
-
-![summary page](images/summary.png)
-![summary buttons](images/summaryb.png)
-![summary slicer](images/summarys.png)
-
-### Detail Page
-
-![detail page](images/detail.png)
-![detail slicer](images/details.png)
-
-### Drill-Through
-
-![drillthrow page](images/drillthrow.png)
-![drillthrow summary](images/drillthrowp.png)
-
----
-
 ## 📊 Dashboard Overview
 
 The dashboard consists of **two interactive pages**:
 
 ### 🧾 1. Summary Page
+
+![summary page](images/summary.png)
 
 A high-level overview with interactive KPIs, charts, filters, and navigation buttons.
 
@@ -80,6 +62,10 @@ Users can filter data by:
 - Father’s Education
 - Mother’s Education
 
+![summary buttons](images/summaryb.png)
+
+![summary slicer](images/summarys.png)
+
 #### 📊 Charts & Visuals
 1. **Donut Chart** – Student distribution by age group  
 2. **Pie Chart** – Gender distribution  
@@ -97,6 +83,11 @@ From "Marks by School Type" and "Marks by Stream and Gender" charts, users can d
 - Average Marks
 - Subject-wise Marks
 
+![drillthrow page](images/drillthrow.png)
+
+![drillthrow summary](images/drillthrowp.png)
+
+
 #### 🔁 Page Navigation
 - **Info Button** on the Summary Page → Navigates to Detail Page
 - **Back Button** on the Detail Page → Returns to Summary Page
@@ -104,6 +95,9 @@ From "Marks by School Type" and "Marks by Stream and Gender" charts, users can d
 ---
 
 ### 📋 2. Detail Page
+
+![detail page](images/detail.png)
+
 
 A student-level data breakdown with interactive filters and detailed records.
 
@@ -124,6 +118,8 @@ Filter by:
 - Tutoring
 - Internet Access
 - Attendance
+
+![detail slicer](images/details.png)
 
 ---
 
