@@ -20,6 +20,105 @@ This project presents a fully interactive Power BI dashboard built on a dataset 
 
 ---
 
+## ⚙️ Data Preparation
+
+### 🧼 Data Cleaning
+- Removed top two null rows
+- Renamed column headers
+- Verified and corrected data types for consistency
+
+### 🔄 Data Transformation
+- Deleted irrelevant columns: `Mother Job`, `Father Job`, `Guardian`
+- Created custom columns:
+  - `Total Marks`
+  - `Student Group` (categorization by performance)
+
+### 📈 Data Enrichment (Measures)
+- Added DAX measures for:
+  - `Average Study Hours`
+  - `Average Attendance`
+  - `Female Count` and `Male Count`
+  - `Average Marks`
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Screenshot](assets/dashboard-preview.png)
+
+---
+
+## 📊 Dashboard Overview
+
+The dashboard consists of **two interactive pages**:
+
+### 🧾 1. Summary Page
+
+A high-level overview with interactive KPIs, charts, filters, and navigation buttons.
+
+#### 🟢 KPIs
+- Total Students  
+- Average Marks  
+- Average Study Hours  
+- Average Attendance
+
+#### 🎛️ Slicers / Interactive Buttons
+Users can filter data by:
+- Gender
+- Age Group
+- Parental Involvement
+- Location
+- School Type
+- Student Group
+- Tutoring
+- Father’s Education
+- Mother’s Education
+
+#### 📊 Charts & Visuals
+1. **Donut Chart** – Student distribution by age group  
+2. **Pie Chart** – Gender distribution  
+3. **Stacked Bar Chart** – Average marks by school type and tutoring  
+4. **Stacked Bar Chart** – Marks by school type with drill-through  
+5. **Stacked Bar Chart** – Marks by stream and gender  
+6. **Bar Chart** – Average study time by age group and gender  
+7. **Clustered Bar Chart** – Student location vs internet access  
+8. **Line Chart** – Average study hours by stream  
+9. **Clustered Bar Chart** – Attendance rate by stream and gender  
+
+#### 🔍 Drill-Through Functionality
+From "Marks by School Type" and "Marks by Stream and Gender" charts, users can drill through to view:
+- Total Marks
+- Average Marks
+- Subject-wise Marks
+
+#### 🔁 Page Navigation
+- **Info Button** on the Summary Page → Navigates to Detail Page
+- **Back Button** on the Detail Page → Returns to Summary Page
+
+---
+
+### 📋 2. Detail Page
+
+A student-level data breakdown with interactive filters and detailed records.
+
+#### 📌 Cards
+- Total Students  
+- Male Count  
+- Female Count  
+- Average Marks  
+- Average Study Hours
+
+#### 🎛️ Slicers / Filters
+Filter by:
+- Gender
+- Age Group
+- Student Group
+- Location
+- School Type
+- Tutoring
+- Internet Access
+- Attendance
+
 ## ⚙️ Steps Performed
 
 1. **Data Cleaning & Preprocessing**
@@ -86,11 +185,6 @@ This dashboard provides a powerful view into the factors influencing student per
 
 ---
 
-## 📸 Dashboard Preview
-
-![Dashboard Screenshot](assets/dashboard-preview.png)
-
----
 
 ## 🛠 Tools Used
 
