@@ -111,25 +111,6 @@ Filter by:
 - Internet Access
 - Attendance
 
-## ⚙️ Steps Performed
-
-1. **Data Cleaning & Preprocessing**
-   - Removed unnecessary spaces and renamed columns for clarity.
-   - Standardized column names using lowercase and underscore conventions.
-
-2. **Data Transformation**
-   - Added calculated columns like `average_score` and categorized score levels (e.g., Low, Medium, High).
-   - Converted text columns to proper case for better visual readability.
-
-3. **Exploratory Data Analysis**
-   - Visualized score distributions across gender, parental education, and other attributes.
-   - Assessed correlation between test preparation and score improvements.
-
-4. **Dashboard Development in Power BI**
-   - Created slicers for gender, parental education, and lunch.
-   - Built KPIs and bar/pie charts to reflect performance trends.
-   - Designed a clean, intuitive layout with tooltips and titles.
-
 ---
 
 ## 📊 Dashboard Features
